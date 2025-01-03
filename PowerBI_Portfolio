@@ -2,7 +2,12 @@ PowerBI_Portfolio/
 │
 ├── README.md
 ├── Sales_Dashboard/
-    ├── Sales_Dashboard.pbix
-    ├── Sales_Data.csv
+│   ├── Sales_Dashboard.pbix
+│   ├── Sales_Data.csv
+│   ├── Dashboard_Screenshot.png
+│   └── README.md
+└── Customer_Segmentation/
+    ├── Customer_Segmentation.pbix
+    ├── Customer_Segmentation_Data.csv
     ├── Dashboard_Screenshot.png
     └── README.md
