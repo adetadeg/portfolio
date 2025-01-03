@@ -8,7 +8,9 @@ Welcome to my Power BI portfolio! This repository showcases my expertise in data
    A dashboard showing a comprehensive analysis of total lifetime sales, year-over-year sales percentage growth from 2010 to 2013, and sales trends. It includes an interactive drilldown feature for a salesperson dashboard, displaying cumulative sales by month and year-over-year performance. Additionally, the dashboard highlights top-selling regions, resellers, and products, offering detailed revenue insights through dynamic visualizations.
 
    - **[Sales_Analysis.pbix](https://github.com/adetadeg/portfolio/tree/main/Sales_Dashboard)**
-   - **[Dashboard Screenshot](./Sales_Dashboard/Dashboard_Screenshot.png)**
+   - **[Home Dashboard Screenshot](https://github.com/adetadeg/portfolio/blob/main/PowerBI_Portfolio/1%2C%20Sales_Dashboard/2.%20Home.png)**
+   - **[Salesperson Dashboard (Drilldown) Screenshot](https://github.com/adetadeg/portfolio/blob/main/PowerBI_Portfolio/1%2C%20Sales_Dashboard/3.%20Salesperson_Dashboard.png)**
+   - **[Star Schema Screenshot](https://github.com/adetadeg/portfolio/blob/main/PowerBI_Portfolio/1%2C%20Sales_Dashboard/4.%20Star_Schema.png)**
 
 2. **[Customer Segmentation Analysis](./Customer_Segmentation/README.md)**  
    A project showcasing the segmentation of customers based on purchasing behavior, with insights into marketing opportunities.
@@ -37,7 +39,9 @@ PowerBI_Portfolio/
 ├── README.md                      # This file
 ├── Sales_Dashboard/               # Sales Dashboard project folder
 │   ├── Sales_Analysis.pbix         # Power BI file with sales analysis
-│   ├── Dashboard_Screenshot.png    # Screenshot of the dashboard
+│   ├── Home.png                    # Screenshot of the Home Dashboard
+│   ├── Salesperson_Dashboard.png   # Screenshot of the Salesperson Dashboard (Drilldown)
+│   ├── Star_Schema.png             # Screenshot of the star schema
 │   └── README.md                   # Detailed description of the Sales Dashboard project
 ├── Customer_Segmentation/          # Customer Segmentation project folder
 │   ├── Customer_Segmentation.pbix  # Power BI file with customer segmentation analysis
