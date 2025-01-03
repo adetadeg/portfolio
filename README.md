@@ -18,7 +18,7 @@ Welcome to my Power BI portfolio! This repository showcases my expertise in data
 This project uses the **AdventureWorks** dataset, which is provided by Microsoft for sample data analysis. I would like to thank Microsoft for making this dataset available, which helped to enrich this analysis.
 
 To replicate the projects:
-1. Download and restore the **AdventureWorks** database from Microsoft or use the provided **[AdventureWorks.bak](./AdventureWorks_Backup/AdventureWorks.bak)** file.
+1. Download and restore the **AdventureWorks** database from Microsoft or use the provided **[AdventureWorks.bak](https://github.com/adetadeg/portfolio/tree/main/PowerBI_Portfolio/0.%20AdventureWorks_Backup)** file.
 2. Follow these steps to restore the **.bak** file in SQL Server:
    - Open SQL Server Management Studio (SSMS).
    - Right-click on "Databases" and choose "Restore Database."
