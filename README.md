@@ -45,3 +45,14 @@ Analyze **Cyclistic's** bike-share data to uncover usage patterns between **annu
 2. In **SQL Server Management Studio (SSMS)**, restore the database from the backup file.
 3. **Connect Power BI or Tableau** to the restored database and explore the models and dashboards I’ve built!
 
+---
+
+## License
+This portfolio and the analysis are part of my educational and professional projects and are available for review and learning purposes under appropriate licensing terms.
+
+---
+
+## Contact
+Feel free to reach out with questions or collaboration opportunities. You can find me on [GitHub](https://github.com/adetadeg/).
+
+
