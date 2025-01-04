@@ -1,57 +1,67 @@
-# Power BI Portfolio
+# Cyclistic Bike-Share Analysis Case Study
 
-Welcome to my Power BI portfolio! This repository showcases my expertise in data visualization and analytics using Power BI. Each project demonstrates different aspects of my skills, including data modeling, DAX calculations, and dashboard design.
+## Business Task
+The goal of this case study is to analyze how **annual members** and **casual riders** use Cyclistic bikes differently, based on historical trip data. By understanding these differences, the marketing team at Cyclistic aims to design strategies to convert casual riders into annual members, which will contribute to the company’s growth and long-term success. The insights from this analysis will be used to create targeted marketing campaigns to drive the conversion of casual riders into annual members.
 
-## Projects
+## Data Overview
+The data used in this case study comes from **Cyclistic’s** historical bike trip records. This dataset includes trip data for both casual riders and annual members, capturing various ride details such as ride length, start and end times, and the type of membership (annual or casual).
 
-1. **[Sales Dashboard](https://github.com/adetadeg/portfolio/blob/main/README.md)**  
-   A dashboard showing a comprehensive analysis of total lifetime sales, year-over-year sales percentage growth from 2010 to 2013, and sales trends. It includes an interactive drilldown feature for a salesperson dashboard, displaying cumulative sales by month and year-over-year performance. Additionally, the dashboard highlights top-selling regions, resellers, and products, offering detailed revenue insights through dynamic visualizations.
+The data was prepared by performing the following:
+- Cleaning and filtering ride data.
+- Creating new calculated columns for `ride_length` and `day_of_week`.
+- Aggregating the data based on rider type and other key variables.
 
-   - **[Sales_Analysis.pbix](https://github.com/adetadeg/portfolio/tree/main/Sales_Dashboard)**
-   - **[Home Dashboard Screenshot](https://github.com/adetadeg/portfolio/blob/main/PowerBI_Portfolio/1%2C%20Sales_Dashboard/2.%20Home.png)**
-   - **[Salesperson Dashboard (Drilldown) Screenshot](https://github.com/adetadeg/portfolio/blob/main/PowerBI_Portfolio/1%2C%20Sales_Dashboard/3.%20Salesperson_Dashboard.png)**
-   - **[Star Schema Screenshot](https://github.com/adetadeg/portfolio/blob/main/PowerBI_Portfolio/1%2C%20Sales_Dashboard/4.%20Star_Schema.png)**
+## Analysis Process
 
-2. **[Customer Segmentation Analysis](./Customer_Segmentation/README.md)**  
-   A project showcasing the segmentation of customers based on purchasing behavior, with insights into marketing opportunities.
+### 1. **Ask**: Define the business task and key questions
+- How do annual members and casual riders use Cyclistic bikes differently?
+- Why would casual riders buy Cyclistic annual memberships?
+- How can Cyclistic use digital media to influence casual riders to become members?
 
-   - **[Customer Segementation Analysis.pbix](https://github.com/adetadeg/portfolio/blob/main/PowerBI_Portfolio/2.%20Customer%20Segmentation%20Analysis/1.%20Customer%20Segementation_Analysis.pbix)**
-   - **[Home Dashboard Screenshot](https://github.com/adetadeg/portfolio/blob/main/PowerBI_Portfolio/2.%20Customer%20Segmentation%20Analysis/2.%20Home.png)**
-   - **[Customer Dashboard (Drilldown) Screenshot](https://github.com/adetadeg/portfolio/blob/main/PowerBI_Portfolio/2.%20Customer%20Segmentation%20Analysis/2.%20Customer%20Details.png)**
-   - **[Star Schema Screenshot](https://github.com/adetadeg/portfolio/blob/main/PowerBI_Portfolio/2.%20Customer%20Segmentation%20Analysis/3.%20Schema.png)**
+### 2. **Prepare**: Data cleaning and preparation
+- Downloaded and stored the Cyclistic trip data for the past 12 months.
+- Cleaned the data by removing duplicates and handling missing values.
+- Created calculated columns to measure ride duration (`ride_length`) and the day of the week for each ride.
 
+### 3. **Process**: Data transformation
+- Applied necessary transformations to ensure the data was in the correct format.
+- Merged trip data from different quarters to provide a full-year view.
 
-## Data Sources
+### 4. **Analyze**: Data exploration and analysis
+- Conducted descriptive analysis to compare ride length and frequency between casual riders and annual members.
+- Used pivot tables and summary statistics to identify trends such as average ride duration by rider type and day of the week.
 
-This project uses the **AdventureWorks** dataset, which is provided by Microsoft for sample data analysis. I would like to thank Microsoft for making this dataset available, which helped to enrich this analysis.
+### 5. **Share**: Data visualization and insights
+- Visualized key trends using bar charts, line graphs, and heatmaps.
+- Provided clear and actionable insights into the differences in usage patterns between casual and annual riders.
 
-To replicate the projects:
-1. Download and restore the **AdventureWorks** database from Microsoft or use the provided **[AdventureWorks.bak](https://github.com/adetadeg/portfolio/tree/main/PowerBI_Portfolio/0.%20AdventureWorks_Backup)** file.
-2. Follow these steps to restore the **.bak** file in SQL Server:
-   - Open SQL Server Management Studio (SSMS).
-   - Right-click on "Databases" and choose "Restore Database."
-   - Choose the **AdventureWorks.bak** file from the repository or your local folder.
-   - Follow the prompts to restore the database.
-3. Connect Power BI to the restored **AdventureWorks** database and recreate the data models and visualizations as seen in the Power BI reports.
+### 6. **Act**: Recommendations and conclusions
+- Based on the analysis, I have developed three top recommendations for the marketing team:
+  1. **Target off-peak hours**: Promote annual memberships to riders during less busy times, where casual riders tend to use the bikes more.
+  2. **Promote convenience and savings**: Highlight the cost-saving benefits of an annual membership in comparison to casual rides.
+  3. **Leverage digital platforms**: Use social media ads and email marketing to target casual riders, offering them special promotions to encourage membership sign-ups.
 
-Feel free to explore each project folder to see the `.pbix` files, screenshots, and additional details.
+## Files in This Repository
+Here is the directory structure of the repository:
 
-## File Structure
-
-Here is the file structure of this repository:
-
-```plaintext
-PowerBI_Portfolio/
-├── README.md                      # This file
-├── Sales_Dashboard/               # Sales Dashboard project folder
-│   ├── Sales_Analysis.pbix         # Power BI file with sales analysis
-│   ├── Home.png                    # Screenshot of the Home Dashboard
-│   ├── Salesperson_Dashboard.png   # Screenshot of the Salesperson Dashboard (Drilldown)
-│   └── Star_Schema.png             # Screenshot of the star schema
-├── Customer_Segmentation/          # Customer Segmentation project folder
-│   ├── Customer_Segmentation.pbix  # Power BI file with customer segmentation analysis
-│   ├── Home.png                    # Screenshot of the Home Dashboard
-│   ├── Customer_Details.png        # Screenshot of the Salesperson Dashboard (Drilldown)
-│   └── Star_Schema.png             # Screenshot of the star schema
-└── AdventureWorks_Backup/          # Folder containing the AdventureWorks .bak file
-    └── AdventureWorks.bak          # The backup file
+```bash
+Cyclistic-Bike-Share-Analysis/
+├── business_task.md            # Contains the business task statement
+├── data/                       # Raw data files and datasets
+│   ├── trip_data_1.csv
+│   ├── trip_data_2.csv
+│   └── ...
+├── prepare/                    # Scripts and notebooks for data cleaning and preparation
+│   ├── data_cleaning.py
+│   └── data_preparation.ipynb
+├── process/                    # Processed and cleaned data ready for analysis
+│   └── cleaned_trip_data.csv
+├── analyze/                    # Analysis notebooks or scripts
+│   ├── data_analysis.py
+│   └── exploratory_analysis.ipynb
+├── share/                      # Visualizations and insights
+│   ├── bike_usage_trends.png
+│   └── ride_length_by_day.png
+├── act/                        # Final recommendations and conclusions
+│   └── marketing_recommendations.md
+└── README.md                   # This file
