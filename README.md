@@ -1,57 +1,47 @@
-# Power BI Portfolio
+# **Power BI & Tableau Portfolio**
 
-Welcome to my Power BI portfolio! This repository showcases my expertise in data visualization and analytics using Power BI. Each project demonstrates different aspects of my skills, including data modeling, DAX calculations, and dashboard design.
+Welcome to my **Power BI & Tableau portfolio**! 🚀 This repository showcases my expertise in **data visualization**, **analytics**, and **dashboard design**, using industry-leading tools to transform raw data into actionable insights. Whether you're interested in a **sales performance dashboard**, **customer segmentation**, or **interactive visualizations**, this portfolio has it all!
 
-## Projects
+---
 
-1. **[Sales Dashboard](https://github.com/adetadeg/portfolio/blob/main/README.md)**  
-   A dashboard showing a comprehensive analysis of total lifetime sales, year-over-year sales percentage growth from 2010 to 2013, and sales trends. It includes an interactive drilldown feature for a salesperson dashboard, displaying cumulative sales by month and year-over-year performance. Additionally, the dashboard highlights top-selling regions, resellers, and products, offering detailed revenue insights through dynamic visualizations.
+## **Projects**
 
-   - **[Sales_Analysis.pbix](https://github.com/adetadeg/portfolio/tree/main/Sales_Dashboard)**
-   - **[Home Dashboard Screenshot](https://github.com/adetadeg/portfolio/blob/main/PowerBI_Portfolio/1%2C%20Sales_Dashboard/2.%20Home.png)**
-   - **[Salesperson Dashboard (Drilldown) Screenshot](https://github.com/adetadeg/portfolio/blob/main/PowerBI_Portfolio/1%2C%20Sales_Dashboard/3.%20Salesperson_Dashboard.png)**
-   - **[Star Schema Screenshot](https://github.com/adetadeg/portfolio/blob/main/PowerBI_Portfolio/1%2C%20Sales_Dashboard/4.%20Star_Schema.png)**
+### 🔥 **Sales Dashboard**
+Dive into a comprehensive **sales performance dashboard** that:
+- Analyzes **lifetime sales**, **year-over-year growth**, and **sales trends** from 2010 to 2013.
+- Features interactive drilldowns for **salesperson performance** and **top-performing regions**.
+- Provides detailed insights into **revenue**, **products**, and **resellers**.
 
-2. **[Customer Segmentation Analysis](./Customer_Segmentation/README.md)**  
-   A project showcasing the segmentation of customers based on purchasing behavior, with insights into marketing opportunities.
+### 🎯 **Customer Segmentation Analysis**
+Explore a **customer segmentation analysis** that:
+- Segments customers based on **purchasing behavior** and **demographics**.
+- Identifies key **marketing opportunities** and trends in consumer behavior.
 
-   - **[Customer Segementation Analysis.pbix](https://github.com/adetadeg/portfolio/blob/main/PowerBI_Portfolio/2.%20Customer%20Segmentation%20Analysis/1.%20Customer%20Segementation_Analysis.pbix)**
-   - **[Home Dashboard Screenshot](https://github.com/adetadeg/portfolio/blob/main/PowerBI_Portfolio/2.%20Customer%20Segmentation%20Analysis/2.%20Home.png)**
-   - **[Customer Dashboard (Drilldown) Screenshot](https://github.com/adetadeg/portfolio/blob/main/PowerBI_Portfolio/2.%20Customer%20Segmentation%20Analysis/2.%20Customer%20Details.png)**
-   - **[Star Schema Screenshot](https://github.com/adetadeg/portfolio/blob/main/PowerBI_Portfolio/2.%20Customer%20Segmentation%20Analysis/3.%20Schema.png)**
+### 🌟 **Cyclistic Bike-Share Analysis**
+Analyze **Cyclistic's** bike-share data to uncover usage patterns between **annual members** and **casual riders**, with a focus on:
+- **Analyzing usage trends** based on ride length, time of day, and membership type.
+- Developing **marketing strategies** to convert casual riders into annual members.
+- Presenting **actionable insights** and **recommendations** through interactive visualizations.
 
+---
 
-## Data Sources
+## **Key Features**
 
-This project uses the **AdventureWorks** dataset, which is provided by Microsoft for sample data analysis. I would like to thank Microsoft for making this dataset available, which helped to enrich this analysis.
+- **Data Modeling**: Designed star schemas, relationships, and DAX calculations for efficient data modeling and insightful analysis.
+- **Interactive Dashboards**: Built dynamic visuals with drilldowns and interactive features for in-depth exploration.
+- **Advanced Analytics**: Leveraged Power BI and Tableau’s AI features, custom measures, and advanced calculations to generate valuable insights.
 
-To replicate the projects:
-1. Download and restore the **AdventureWorks** database from Microsoft or use the provided **[AdventureWorks.bak](https://github.com/adetadeg/portfolio/tree/main/PowerBI_Portfolio/0.%20AdventureWorks_Backup)** file.
-2. Follow these steps to restore the **.bak** file in SQL Server:
-   - Open SQL Server Management Studio (SSMS).
-   - Right-click on "Databases" and choose "Restore Database."
-   - Choose the **AdventureWorks.bak** file from the repository or your local folder.
-   - Follow the prompts to restore the database.
-3. Connect Power BI to the restored **AdventureWorks** database and recreate the data models and visualizations as seen in the Power BI reports.
+---
 
-Feel free to explore each project folder to see the `.pbix` files, screenshots, and additional details.
+## **Data Sources**
+- All projects use the **AdventureWorks dataset** (provided by Microsoft), offering a realistic set of data for business scenarios.
+- Custom datasets, including the **Cyclistic bike-share data**, were used to analyze real-world trends and behaviors.
 
-## File Structure
+---
 
-Here is the file structure of this repository:
+## **How to Replicate These Projects**
 
-```plaintext
-PowerBI_Portfolio/
-├── README.md                      # This file
-├── Sales_Dashboard/               # Sales Dashboard project folder
-│   ├── Sales_Analysis.pbix         # Power BI file with sales analysis
-│   ├── Home.png                    # Screenshot of the Home Dashboard
-│   ├── Salesperson_Dashboard.png   # Screenshot of the Salesperson Dashboard (Drilldown)
-│   └── Star_Schema.png             # Screenshot of the star schema
-├── Customer_Segmentation/          # Customer Segmentation project folder
-│   ├── Customer_Segmentation.pbix  # Power BI file with customer segmentation analysis
-│   ├── Home.png                    # Screenshot of the Home Dashboard
-│   ├── Customer_Details.png        # Screenshot of the Salesperson Dashboard (Drilldown)
-│   └── Star_Schema.png             # Screenshot of the star schema
-└── AdventureWorks_Backup/          # Folder containing the AdventureWorks .bak file
-    └── AdventureWorks.bak          # The backup file
+1. **Download and Restore** the **AdventureWorks** database from Microsoft or use the provided **AdventureWorks.bak** file.
+2. In **SQL Server Management Studio (SSMS)**, restore the database from the backup file.
+3. **Connect Power BI or Tableau** to the restored database and explore the models and dashboards I’ve built!
+
