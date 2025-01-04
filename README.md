@@ -15,6 +15,12 @@ Welcome to my Power BI portfolio! This repository showcases my expertise in data
 2. **[Customer Segmentation Analysis](./Customer_Segmentation/README.md)**  
    A project showcasing the segmentation of customers based on purchasing behavior, with insights into marketing opportunities.
 
+   - **[Customer Segementation Analysis.pbix](https://github.com/adetadeg/portfolio/blob/main/PowerBI_Portfolio/2.%20Customer%20Segmentation%20Analysis/1.%20Customer%20Segementation_Analysis.pbix)**
+   - **[Home Dashboard Screenshot](https://github.com/adetadeg/portfolio/blob/main/PowerBI_Portfolio/2.%20Customer%20Segmentation%20Analysis/2.%20Home.png)**
+   - **[Customer Dashboard (Drilldown) Screenshot](https://github.com/adetadeg/portfolio/blob/main/PowerBI_Portfolio/2.%20Customer%20Segmentation%20Analysis/2.%20Customer%20Details.png)**
+   - **[Star Schema Screenshot](https://github.com/adetadeg/portfolio/blob/main/PowerBI_Portfolio/2.%20Customer%20Segmentation%20Analysis/3.%20Schema.png)**
+
+
 ## Data Sources
 
 This project uses the **AdventureWorks** dataset, which is provided by Microsoft for sample data analysis. I would like to thank Microsoft for making this dataset available, which helped to enrich this analysis.
@@ -41,11 +47,11 @@ PowerBI_Portfolio/
 │   ├── Sales_Analysis.pbix         # Power BI file with sales analysis
 │   ├── Home.png                    # Screenshot of the Home Dashboard
 │   ├── Salesperson_Dashboard.png   # Screenshot of the Salesperson Dashboard (Drilldown)
-│   ├── Star_Schema.png             # Screenshot of the star schema
-│   └── README.md                   # Detailed description of the Sales Dashboard project
+│   └── Star_Schema.png             # Screenshot of the star schema
 ├── Customer_Segmentation/          # Customer Segmentation project folder
 │   ├── Customer_Segmentation.pbix  # Power BI file with customer segmentation analysis
-│   ├── Dashboard_Screenshot.png    # Screenshot of the customer segmentation dashboard
-│   └── README.md                   # Detailed description of the Customer Segmentation project
-└── AdventureWorks_Backup/           # Folder containing the AdventureWorks .bak file
+│   ├── Home.png                    # Screenshot of the Home Dashboard
+│   ├── Customer_Details.png        # Screenshot of the Salesperson Dashboard (Drilldown)
+│   └── Star_Schema.png             # Screenshot of the star schema
+└── AdventureWorks_Backup/          # Folder containing the AdventureWorks .bak file
     └── AdventureWorks.bak          # The backup file
